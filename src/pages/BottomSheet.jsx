@@ -14,12 +14,14 @@ const BottomSheet = ({ isOpen, onClose, children }) => {
 
   const handleDrag = (e) => {
     if (!dragging) return;
-
-    const deltaY = e.clientY - dragStartY;
-    const newSheetY = sheetY + deltaY;
-
-    setSheetY(newSheetY);
-    setDragStartY(e.clientY);
+  
+    requestAnimationFrame(() => {
+      const deltaY = e.clientY - dragStartY;
+      const newSheetY = sheetY + deltaY;
+  
+      setSheetY(newSheetY);
+      setDragStartY(e.clientY);
+    });
   };
 
   const handleDragEnd = () => {
@@ -27,14 +29,19 @@ const BottomSheet = ({ isOpen, onClose, children }) => {
 
     // Determine the snap point based on the position after dragging
     let snapPoint = 'closed';
-    if (sheetY < -150) {
-      snapPoint = 'half';
-    } else if (sheetY > 150) {
-      snapPoint = 'open';
-    }
+    
+    if (sheetY < -150 && sheetY > -300) {     
+        snapPoint = 'half';
+      } else if (sheetY <= -450) {
+        snapPoint = 'open';
+       
+      }else if(sheetY>0){
+        snapPoint="closed"
+      }
 
     // Adjust the position to snap to the nearest snap point
     switch (snapPoint) {
+
       case 'closed':
         setSheetY(0);
         break;
@@ -60,7 +67,7 @@ const BottomSheet = ({ isOpen, onClose, children }) => {
     >
       <div className="bottom-sheet-content">
         <div className="fixed">
-          <button onClick={onClose} className="close-button"></button>
+          <button  onClick={onClose} className="close-button"></button>
         </div>
         {children}
       </div>
@@ -69,3 +76,4 @@ const BottomSheet = ({ isOpen, onClose, children }) => {
 };
 
 export default BottomSheet;
+

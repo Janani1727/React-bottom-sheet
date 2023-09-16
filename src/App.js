@@ -22,119 +22,212 @@ const App = () => {
 
  return (
 
-  <div className="App">
-    <button style={{border:"1px solid black",marginTop:"22%",marginLeft:"45%",padding:"10px"}} onClick={openBottomSheet}>Open Bottom Sheet</button>
+  <div className="App" >
+    <button style={{border:"1px solid black",marginTop:"22%",marginLeft:"43%",padding:"15px",fontSize:"18px",color:"white",backgroundColor:"rgb(230, 70, 96)",cursor:"pointer"}} onClick={openBottomSheet}>Open Bottom Sheet</button>
     <BottomSheet isOpen={isBottomSheetOpen} onClose={closeBottomSheet}> 
-    <p style={{marginTop:"25px"}}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+    <div style={{marginTop:"25px"}}>
+    
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
       nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
       iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
       nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
-      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
-      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
-
+      iusto magni 
     </p>
+   
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis accusantium 
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni provident distinctio itaque mollitia quia nihil fugiat, possimus dicta?
+      nostrum accusamus commodi architecto, praesentium autem quam voluptatem 
+      iusto magni 
+    </p>
+
+     
+
+    </div>
 
         
     </BottomSheet>
