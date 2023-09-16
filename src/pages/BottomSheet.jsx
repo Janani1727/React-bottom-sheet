@@ -57,6 +57,7 @@ const BottomSheet = ({ isOpen, onClose, children }) => {
   };
 
   return (
+
     <div
       className={sheetClassName}
       style={{ transform: `translateY(${sheetY}px)` }}
@@ -65,10 +66,12 @@ const BottomSheet = ({ isOpen, onClose, children }) => {
       onMouseUp={handleDragEnd}
       onMouseLeave={handleDragEnd}
     >
+
       <div className="bottom-sheet-content">
         <div className="fixed">
           <button  onClick={onClose} className="close-button"></button>
         </div>
+        
         {children}
       </div>
     </div>
